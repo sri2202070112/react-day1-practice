@@ -1,10 +1,10 @@
 function Header() {
   return (
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
+    <nav className="navbar glass">
+      <ul className="nav-list">
+        <li><a className="nav-link" href="#">Home</a></li>
+        <li><a className="nav-link" href="#">About</a></li>
+        <li><a className="nav-link" href="#">Contact</a></li>
       </ul>
     </nav>
   );
